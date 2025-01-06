@@ -52,3 +52,6 @@ Welcome to Quantum Education Modules!
    :caption: Quantum Circuit Design
 
    quantum_circuit_design/introduction
+   quantum_circuit_design/modeling
+   quantum_circuit_design/algorithms
+   quantum_circuit_design/results
