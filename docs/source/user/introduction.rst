@@ -7,12 +7,12 @@ Introduction
 
 Description
 ===========
-Welcome to `Quantum Education Modules <https://github.com/YangletLiu/CSCI4961_labs_projects>`_! 
+Welcome to `Quantum Education Modules <https://github.com/YangletLiu/quantum-education-modules>`_! 
 
-`Quantum Education Modules <https://github.com/YangletLiu/CSCI4961_labs_projects>`_ takes an open-source, hands-on approach to make quantum computing 
+`Quantum Education Modules <https://github.com/YangletLiu/quantum-education-modules>`_ takes an open-source, hands-on approach to make quantum computing 
 intuitive and accessible for students. 
 
-The modules  include labs, experiments, and projects, allowing you to first learn quantum concepts interactively through simulations using Jupyter notebooks. 
+The modules include labs, experiments, and projects, allowing you to first learn quantum concepts interactively through simulations using Jupyter notebooks. 
 Then, you will have the opportunity to explore with IBM Quantum System One. RPI students could use the on campus quantum computer. 
 
 Through these modules, we provide:
