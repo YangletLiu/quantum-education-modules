@@ -23,7 +23,6 @@ Welcome to Quantum Education Modules!
    :caption: User Documentation
 
    user/introduction
-   user/roadmap
    user/usage
    user/contribute
 

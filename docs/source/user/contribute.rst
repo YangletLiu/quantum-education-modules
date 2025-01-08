@@ -11,6 +11,69 @@ Here is how you can get involved!
 .. contents:: Table of Contents
    :local:
 
+Roadmap
+=======
+
+Introductory modules (Concepts, Gates, Circuits)
+-----------------------------------------------------------------
+- **Qubits***
+
+  - **Superposition***
+
+  - **Bloch Sphere***
+
+  - **Measurement***
+
+  - **Entanglement***
+
+- **Gates***
+
+  - **Common Gates***
+
+  - **Universal Gate Set***
+
+- **Circuits***
+
+  - **Bell States***
+
+  - **GHZ State***
+
+  - **Error Codes***
+
+  - **Oracles***
+
+Intermediate modules (Algorithms)
+----------------------------------------------
+- **Deutsch's****
+
+- **Bernstein's****
+
+- **Grover's***
+
+- **Shor's***
+
+- **Variational Quantum Eigensolver (VQE)****
+
+- **Quantum Approximate Optimization Algorithm (QAOA)***
+
+- **Quantum Key Distribution (QKD)****
+
+- **Error Correction****
+
+Advanced modules (Applications)
+--------------------------------------------
+- **Simulation****
+
+- **Chemistry/Drug Discovery****
+
+- **Machine Learning***
+
+- **Cryptography****
+
+| **\* In progress/Needs revision**
+| **\*\* Not added yet**
+| 
+
 Suggested Contributions
 =======================
 
@@ -32,7 +95,7 @@ More information is available here: `Linking Existing Modules`_.
 
 Create New Content
 ------------------
-Contributors are also encouraged to suggest quantum topics or create new modules based on our :doc:`Roadmap <roadmap>`, existing suggestions, or your own ideas.
+Contributors are also encouraged to suggest quantum topics or create new modules based on our `Roadmap`_, existing suggestions, or your own ideas.
 
 You can propose quantum topics by submitting an issue on our `GitHub <https://github.com/YangletLiu/CSCI4961_labs_projects>`_. This helps spark interest and engage students who may be curious about the same concept area.
 
