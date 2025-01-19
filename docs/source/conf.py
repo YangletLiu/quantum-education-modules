@@ -36,7 +36,8 @@ master_doc = "index"
 
 exclude_patterns = []
 
-
+numfig = True
+math_numfig = True
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output

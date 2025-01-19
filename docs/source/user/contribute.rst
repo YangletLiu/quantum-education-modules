@@ -11,12 +11,75 @@ Here is how you can get involved!
 .. contents:: Table of Contents
    :local:
 
+Roadmap
+=======
+
+Introductory modules (Concepts, Gates, Circuits)
+------------------------------------------------
+- **Qubits***
+
+  - **Superposition***
+
+  - **Bloch Sphere***
+
+  - **Measurement***
+
+  - **Entanglement***
+
+- **Gates***
+
+  - **Common Gates***
+
+  - **Universal Gate Set***
+
+- **Circuits***
+
+  - **Bell States***
+
+  - **GHZ State***
+
+  - **Error Codes***
+
+  - **Oracles***
+
+Intermediate modules (Algorithms)
+---------------------------------
+- **Deutsch's****
+
+- **Bernstein's****
+
+- **Grover's***
+
+- **Shor's***
+
+- **Variational Quantum Eigensolver (VQE)****
+
+- **Quantum Approximate Optimization Algorithm (QAOA)***
+
+- **Quantum Key Distribution (QKD)****
+
+- **Error Correction****
+
+Advanced modules (Applications)
+-------------------------------
+- **Simulation****
+
+- **Chemistry/Drug Discovery****
+
+- **Machine Learning***
+
+- **Cryptography****
+
+| **\* In progress/Needs revision**
+| **\*\* Not added yet**
+| 
+
 Suggested Contributions
 =======================
 
 Feedback on Existing Modules
 ----------------------------
-You can provide feedback or suggest improvements to existing modules by submitting an issue on our `GitHub <https://github.com/YangletLiu/CSCI4961_labs_projects>`_. Examples of feedback can include:
+You can provide feedback or suggest improvements to existing modules by submitting an issue on our `GitHub <https://github.com/YangletLiu/quantum-education-modules>`_. Examples of feedback can include:
 
 - Adding examples
 - Correcting errors
@@ -26,15 +89,15 @@ Feedback is critical in helping us iterate on these modules and refine the quali
 
 Link Existing Modules to this Site
 ----------------------------------
-To keep this documentation up-to-date, you can contribute by linking existing modules from the `GitHub <https://github.com/YangletLiu/CSCI4961_labs_projects>`_ to this site. This will make it easier for users to navigate through the modules and find the information they need.
+To keep this documentation up-to-date, you can contribute by linking existing modules from the `GitHub <https://github.com/YangletLiu/quantum-education-modules>`_ to this site. This will make it easier for users to navigate through the modules and find the information they need.
 
 More information is available here: `Linking Existing Modules`_.
 
 Create New Content
 ------------------
-Contributors are also encouraged to suggest quantum topics or create new modules based on our :doc:`Roadmap <roadmap>`, existing suggestions, or your own ideas.
+Contributors are also encouraged to suggest quantum topics or create new modules based on our `Roadmap`_, existing suggestions, or your own ideas.
 
-You can propose quantum topics by submitting an issue on our `GitHub <https://github.com/YangletLiu/CSCI4961_labs_projects>`_. This helps spark interest and engage students who may be curious about the same concept area.
+You can propose quantum topics by submitting an issue on our `GitHub <https://github.com/YangletLiu/quantum-education-modules>`_. This helps spark interest and engage students who may be curious about the same concept area.
 
 You can create new modules by developing a Jupyter notebook on a topic of your choice, following the structure of existing modules. This process deepens your understanding of the topic and allows you to share your knowledge with others. 
 
@@ -114,7 +177,7 @@ You will need to fork the repository:
 
 .. parsed-literal::
 
-    git clone https://github.com/YangletLiu/CSCI4961_labs_projects.git
+    git clone https://github.com/YangletLiu/quantum-education-modules.git
 
 In this forked repository, you can make your changes. To check all your unstaged changes, use:
 

@@ -1,8 +1,10 @@
 How to Use
 ==========
 
-Our modular structure has made it easy to navigate through the modules. Each module is designed to be self-contained, with a clear learning objective. 
-For integration with courses, you will be able to choose any subset of modules to use as labs or projects to supplement your course material.
+The modules can be viewed pre-run on this site or run locally by downloading the Jupyter notebooks from the `GitHub <https://github.com/YangletLiu/quantum-education-modules>`_.
 
-An example of this would be using the Common Gates module as a lab to introduce students to visual representations of quantum gates and their effects on qubits through the IBM Quantum Composer. 
-This hands-on approach will complement the theoretical understanding of quantum gates as unitary matrices applied to qubits.
+Students can explore any module freely. For students new to quantum computing, we offer example learning paths based on content from RPI courses to guide your journey.
+
+.. image:: ./images/learning_paths.png
+   :align: center
+   :class: custom-img

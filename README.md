@@ -1,7 +1,7 @@
 # CSCI 4961 Introduction to Quantum Computing: Experiment Modules for Labs and Projects
 
 [Website](https://yangletliu.github.io/Intro-to-Quantum-Computing-Website/) \
-[Documentation](https://csci4961-labs-projects.readthedocs.io/en/latest/index.html)
+[Documentation](https://quantum-education-modules.readthedocs.io/en/latest/)
 
 ## Overview
 
@@ -25,142 +25,34 @@ The emerging field of quantum computing offers the opportunity for new career pa
 **Introductory modules (Concepts)**
 - Qubits
   - Superposition
-    - Start with a $\ket{0}$ state.
-    - Use Hadamard gate to generate a superposition state.
   - Bloch Sphere
-    - Identify the named states on the Bloch Sphere:
-      - North pole
-      - South pole
-      - $\ket{+}$
-      - $\ket{-}$
-      - $\ket{i}$
-      - $\ket{-i}$
   - Measurement
-    - Start with a $\ket{0}$ state.
-    - Use Hadamard gate to generate a superposition state.
-    - Apply measurement on the resulting state (ensure measurement outputs to classical bit).
-    - Set up and run the circuit.
   - Entanglement
-    - Start with a $\ket{00}$ state.
-    - Use Hadamard gate on first qubit to generate a superposition state.
-    - Apply CNOT gate, with first qubit as control and second qubit as target.
-    - Measure both qubits.
-    - Set up and run the circuit.
 - Gates
   - Common Gates
-    - For each common gate, start with a $\ket{0}$ state.
-    - Apply the common gates:
-      - Identity
-      - Pauli $X$ , $Y$ , $Z$
-      - Hadamard $H$
-      - Phase Gate $S$
-      - $T$ Gate
-    - Measure the resulting states.
   - Universal Gate Set
-    - Use Universal Gate Set { $\text{CNOT}, H, T$ } on a $\ket{0}$ state.
-    - Construct Pauli $X = HT^{4}H$.
-    - Construct Pauli $Y = HT^{4}HT^{2}$.
-    - Construct the Toffoli gate (optional).
-    - Compare measurements of constructed gate with pre-defined gate.
 - Circuits
   - Bell States
-    - Start with a $\ket{00}$ state.
-    - Construct each Bell State:
-      - $\ket{\phi^{+}}$ : Use Hadamard gate on first qubit and apply CNOT gate with first qubit as control and second qubit as target.
-      - $\ket{\phi^{-}}$ : Follow same steps as $\ket{\phi^{+}}$. Apply $Z$ gate on first qubit before the CNOT.
-      - $\ket{\psi^{+}}$ : Follow same steps as $\ket{\phi^{+}}$. Apply $X$ gate on second qubit before the CNOT.
-      - $\ket{\psi^{-}}$ : Follow same steps as $\ket{\psi^{+}}$. Apply a $Z$ gate on first qubit and second qubit before the CNOT.
-    - Apply measurement on both qubits, set up, and run the circuit.
   - GHZ State
-    - Start with a $\ket{000}$ state.
-    - Use Hadamard gate on first qubit to generate superposition state.
-    - Apply CNOT gate, with first qubit as control and second qubit as target.
-    - Apply another CNOT gate, with first qubit as control and third qubit as target.
-    - Measure each qubit, set up, and run the circuit.
   - Error Codes
-    - Showcase simple error. 
-      - Start with a $\ket{00}$ state.
-      - Apply $X$ gate on the second qubit to simulate bit flip error.
-    - Construct simple error detection (parity checking).
-      - Add a third additional qubit (ancilla).
-      - Apply a CNOT gate, with first qubit as control and third qubit as target.
-      - Apply another CNOT gate, with second qubit as control and third qubit as target.
-      - Measure the ancilla qubit.
   - Oracles
-    - Construct a simple oracle where $f(x) = x$.
-      - Start with a $\ket{0}$ state. This will be the target qubit, $\ket{y}$.
-      - Initialize a second qubit, $\ket{x}$, as $\ket{0}$ or $\ket{1}$ by applying $X$ gate.
-      - Apply a CNOT gate, with the second qubit as control and first qubit as target. ( $\ket{y} \rightarrow \ket{y ⊕ x}$ )
-      - Measure target qubit, $\ket{y}$.
-    - Construct a simple **phase** oracle where $f(x) = x$.
-      - Start with a $\ket{0}$ state. This will be the target qubit, $\ket{y}$.
-      - Apply a $X$ gate, followed by a Hadamard gate, to create the $\ket{-}$ state.
-      - Initialize a second qubit, $\ket{x}$, as $\ket{0}$ or $\ket{1}$ by applying $X$ gate.
-      - Apply a CNOT gate, with the second qubit as control and first qubit as target. ( $\ket{y} \rightarrow \ket{y ⊕ x}$ )
-      - Measure input qubit, $\ket{x}$.
     
 **Intermediate modules (Algorithms run on IBM Quantum System One)**
   - Deutsch's
-    - Start with a $\ket{0}$ state. This will be the target qubit, $\ket{y}$.
-    - Initialize a second qubit, $\ket{x}$, as the answer qubit, $\ket{-}$. (Apply $X$ and $H$ to $\ket{0}$)
-    - Apply $H$ gate to the target qubit.
-    - Construct the oracle $U_f$. (Depends on specific function. Here we construct oracle for $f(x) = x'$ or '10'.)
-      - Apply CNOT gate, with first qubit as control and second qubit as target.
-      - Apply $X$ gate to answer qubit.
-      - Apply $H$ gate to target qubit.
-    - Measure our target qubit.
   - Bernstein's
-    - Start with a $\ket{000}$ state and 3 classical bits.
-    - Initialize fourth qubit as $\ket{-}$.
-    - Apply $H$ on the first, second, and third qubits.
-    - Construct oracle $U_f$. (Oracle for '101')
-      - Apply CNOT gate, with first qubit as control and fourth qubit as target.
-      - Apply CNOT gate, with third qubit as control and fourth qubit as target.
-    - Measure first, second, and third qubits.
   - Variational Quantum Eigensolver (VQE)
-    - Introduce VQE and its application in finding the ground state energy of quantum systems.
-    - Provide step-by-step code implementation with visualizations.
-    - Present the results and discuss convergence and accuracy of the VQE method.
   - Quantum Approximation Optimization Algorithm (QAOA)
-    - Explain QAOA and its use in combinatorial optimization problems.
-    - Provide code snippets to implement QAOA for a sample optimization problem (e.g., Max Cut)
-    - Analyze results and compare with classical optimization techniques.
   - Grover's
-    - Introduce Grover's algorithm, problem statement (unstructured search problem), and speedup.
-    - Include demonstration of oracle and diffusion operator.
-    - Visualize measurement outcomes and probability of finding solution vs. classical methods.
   - Shor's
-    - Describe Shor's algorithm, problem statement (factoring large integers), and implication for cryptography.
-    - Guide through steps to implement for small to large integers.
-    - Discuss Quantum Fourier Transform.
-    - Analyze and visualize output.
   - Quantum Key Distribution (QKD)
-    - Introduce concept of QKD and importance for secure communication.
-    - Provide example of simulating QKD.
-    - Analyze security, potential vulnerabilities, and real-world applications.
   - Error Correction
-    - Explain necessity of quantum error correction in maintaining qubit fidelity.
-    - Introduce common error codes (e.g., CSS, Steane).
-    - Provide code examples and visualizations for implementations of encoding and decoding.
-    - Analyze reduction in error and discuss challenges in research.
+    
 #### <ins>01/01/2025 - 04/01/2025</ins>
 **Advanced modules (Applications)**
   - Simulation
-    - Introduce quantum simulation and significance in studying quantum systems.
-    - Dive into ```qiskit-aer``` and their quantum circuit simulation to construct example simulations.
-    - Present simulation results.
   - Chemistry/Drug discovery
-    - Explain role of quantum computing in chemistry and drug discovery (e.g., how algorithms can model molecular interactions).
-    - Provide step-by-step guide to simulating molecular systems using VQE or other algorithms.
-    - Discuss results, accuracy and potential impacts.
   - Machine Learning
-    - Introduce quantum machine learning and potential to enhance classical machine learning methods (e.g., quantum data representation).
-    - Use quantum-inspired algorithms or quantum classifiers in various applications.
-    - Analyze performance of quantum models compared to classical counterparts.
   - Cryptography
-    - Explain potential for quantum computing to enhance cryptography.
-    - Provide example use cases of quantum cryptographic protocols (e.g., QKD in network).
-    - Analyze security and potential vulnerabilities.
 
 ### Long Term Goals
 
@@ -174,22 +66,24 @@ The emerging field of quantum computing offers the opportunity for new career pa
 ```
 ├──Classroom_Sharing_Qiskit_Codes
 │   ├── Name1_topic
-│   ├── Name2_topic
+│   └── Name2_topic
 ├── Final Projects
 │   ├── Name1_topic
-│   ├── Name2_topic
+│   └── Name2_topic
 ├── IBM Quantum Computing Challenge
 │   ├── Name1/lab1, lab2, ...
-│   ├── Name2/lab1, lab2, ...
+│   └── Name2/lab1, lab2, ...
 ├── Modules
 │   ├── Concepts/Module1, Module2, ...
 │   ├── Algorithms/Module1, Module2, ...
-|   ├── Applications/Module1, Module2, ...
+|   └── Applications/Module1, Module2, ...
 ├── Qiskit Global Summer School
 │   ├── Name1/lab1, lab2, ...
-│   ├── Name2/lab1, lab2, ...
+│   └── Name2/lab1, lab2, ...
 ├── Quantum_Circuit_Design
 │   ├── method1
-│   ├── method2
+│   └── method2
+├── docs
+│   └── source
 └── README.md
 ```  
