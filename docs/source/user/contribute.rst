@@ -177,7 +177,7 @@ You will need to fork the repository:
 
 .. parsed-literal::
 
-    git clone https://github.com/YangletLiu/CSCI4961_labs_projects.git
+    git clone https://github.com/YangletLiu/quantum-education-modules.git
 
 In this forked repository, you can make your changes. To check all your unstaged changes, use:
 
