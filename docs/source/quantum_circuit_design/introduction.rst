@@ -14,7 +14,7 @@ infancy stage, called the Noisy Intermediate-Scale Quantum (NISQ) era, meaning:
 1. They can only support a limited number of qubits.
 2. Gate operations can be imprecise (i.e., “noisy”).. 
 
-Given these constraints, **automated** methods for designing circuits are increasingly important. Traditional “hand-crafted” circuits can be hard to optimize, especially when we want to build more advanced or large-scale quantum algorithms.
+Given these constraints, **automated** methods for designing circuits are increasingly important. Traditional “hand-crafted” circuits are often inefficient and not scalable, especially when we want to build more advanced or large-scale quantum algorithms.
 
 In this module, we introduce how **reinforcement learning (RL)** can help automate quantum circuit design:
 
