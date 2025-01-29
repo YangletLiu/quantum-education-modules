@@ -5,6 +5,15 @@ Markov Decision Process (MDP) Modelings
 .. contents:: Table of Contents
    :local:
 
+We propose three different ways to model the quantum circuit design (QCD) task within a Markov Decision Process (MDP) framework:
+
+1. **Matrix Representation**
+2. **Reverse Matrix Representation**
+3. **Tensor Network (TN) Representation**
+
+Each representation defines the state space, actions, and reward functions. We will use the Bell-state circuit (:ref:`Figure 1 <fig-bell-circuit>`) as a running example to illustrate these approaches.
+
+
 Matrix Representation
 =====================
 
