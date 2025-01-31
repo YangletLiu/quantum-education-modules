@@ -8,7 +8,7 @@ Algorithms
 In this section, we explore two reinforcement learning (RL) methods for quantum circuit design: **Q-learning** (which uses a simple table to store Q-values) and **Deep Q-Network (DQN)** (which uses a neural network to approximate those values). 
 We’ll discuss how each method updates its estimates of “how good” each state-action pair is, and how that helps our agent find optimal gate sequences.
 
-Q-learning
+Q-Learning
 ==========
 
 Q-learning is one of the simplest forms of RL. It learns a **Q-table** that tracks expected rewards (Q-values) for each possible state-action pair. When an agent takes an action, it observes a reward and updates its Q-table accordingly.
@@ -23,7 +23,7 @@ The update rule is:
    + \alpha \cdot \Bigl( R_{t+1} + \gamma \cdot \max_{a} Q(S_{t+1}, a) \Bigr).
    \end{split}
 
-Where:
+where:
 
 - :math:`S_t` and :math:`A_t` are the **current state** and **action**.
 - :math:`S_{t+1}` is the **next state** after taking the action.
@@ -33,6 +33,14 @@ Where:
 
 
 Over many **episodes** of trial-and-error, Q-learning gradually refines its Q-table until it converges on an effective circuit-building strategy.
+
+.. _qtable:
+.. figure:: ./images/qtable.png
+   :width: 50%
+   :align: center
+   :class: custom-img
+
+   Example Q-table for Bell state :math:`\ket{\Psi^+}` after 500 iterations. At state 0, we take the action with the highest Q-value, :math:`H`. At state 1, we take the CNOT gate to construct :math:`\ket{\Psi^+}`.
 
 Weakness of Q-Learning
 ----------------------
@@ -51,17 +59,23 @@ Key Components
 --------------
 
 1. **Policy Network**:  
+
    - Parameterized by :math:`\theta`.  
+
    - We typically have several fully connected layers (e.g., three layers, each with 128 neurons) taking the **state** as input and outputting Q-values for all possible actions.  
 
 2. **Target Network**:  
+
    - Parameterized by :math:`\overline{\theta}`.  
+
    - A separate, slowly updated network that helps stabilize training.  
-   - Periodically copied or softly updated from the policy network:  
-     :math:`\overline{\theta} \leftarrow (1-\alpha) \overline{\theta} + \alpha \theta`.
+
+   - Periodically copied or softly updated from the policy network: :math:`\overline{\theta} \leftarrow (1-\alpha) \overline{\theta} + \alpha \theta`.
 
 3. **Replay Buffer**:  
-   - Stores “experience tuples” *(state, action, reward, next_state)*.  
+
+   - Stores “experience tuples”: *(state, action, reward, next_state)*.  
+
    - We **randomly sample** from this buffer to reduce correlations between consecutive steps, making training more stable and efficient.
 
 Training the Policy Network
@@ -80,27 +94,36 @@ where:
 - :math:`s'` is the **next state**.
 - :math:`\max_{a'} Q(s', a' \mid \overline{\theta})` is the **estimated best future reward** for next state :math:`s'`, as given by the **target network**.
 
-This training loop typically runs in tandem with an **exploration policy** (e.g., \(\epsilon\)-greedy), so the network can keep discovering new gate sequences.
+This training loop typically runs in tandem with an **exploration policy** (e.g., :math:`\epsilon`-greedy), so the network can keep discovering new gate sequences.
 
-================
 Training Process
 ================
 
 1. **Initialization**:
+
    - Set up Q-table (for Q-learning) or neural networks (for DQN).
+
    - Define the environment (initial circuit state, target state, reward scheme).
+
    - Initialize replay buffer for DQN (if applicable).
 
 2. **Main RL Loop** (for multiple episodes or iterations):
+
    - **Reset** the circuit to the initial state.
+
    - **Select an action** (gate choice) based on the current policy (exploration vs. exploitation).
+
    - **Observe** the new state and reward after applying the gate.
+
    - **Update** the Q-table or neural network (policy) using the formulas shown above.
+
    - If target state is reached or a max step limit is reached, **end** the episode.
 
 3. **Policy Improvement**:
+
    - Over time, Q-values become more accurate, guiding the selection of actions that build the target circuit quickly and reliably.
 
 In the upcoming sections, we will show how these methods can be applied to generate specific quantum circuits—like the Bell state, GHZ state, or multi-qubit gates, using the three representation methods.
 
+.. [Paper] Wang, Z.; Feng, C.; Poon, C.; Huang, L.; Zhao, X.; Ma, Y.; Fu, T.; and Liu, X.-Y. 2025. Reinforcement learning for quantum circuit design: Using matrix representations. In arXiv, 2501.16509. https://arxiv.org/abs/2501.16509.
 

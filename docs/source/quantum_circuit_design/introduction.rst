@@ -12,7 +12,7 @@ Quantum computing has the potential to revolutionize computing beyond the reach 
 infancy stage, called the Noisy Intermediate-Scale Quantum (NISQ) era, meaning:
 
 1. They can only support a limited number of qubits.
-2. Gate operations can be imprecise (i.e., “noisy”).. 
+2. Gate operations can be imprecise (i.e., “noisy”). 
 
 Given these constraints, **automated** methods for designing circuits are increasingly important. Traditional “hand-crafted” circuits are often inefficient and not scalable, especially when we want to build more advanced or large-scale quantum algorithms.
 
@@ -84,3 +84,5 @@ The target quantum circuit to generate :math:`\ket{\Phi^+}` whose matrix represe
    :label: eq:2
 
 Note that :math:`\ket{\Phi^+} = U~\ket{00}`.
+
+.. [Paper] Wang, Z.; Feng, C.; Poon, C.; Huang, L.; Zhao, X.; Ma, Y.; Fu, T.; and Liu, X.-Y. 2025. Reinforcement learning for quantum circuit design: Using matrix representations. In arXiv, 2501.16509. https://arxiv.org/abs/2501.16509.

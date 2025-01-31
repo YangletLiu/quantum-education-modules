@@ -17,15 +17,18 @@ In each MDP modeling, we define the following three key components:
    The set of all possible states that can arise during circuit construction, where each **state** represent a partial circuit
 
 2. **Action Set**:
+
    - The set of all possible gates that can be applied at any point, e.g., :math:`H`, :math:`T`,
      or :math:`\text{CNOT}` on specific qubit(s).
+
    - Executing an action transforms one state into another by adding the chosen gate
      to the circuit.
 
 3. **Reward Function**:
+
    - A measure of how close the resulting state is to the target operation.
 
-We will use the Bell-state circuit (:ref:`Figure 1 <fig-bell-circuit>`) as a running example to illustrate these approaches.
+We will use the Bell-state circuit in :numref:`bellcircuit` as a running example to illustrate these approaches.
 
 Matrix Representation
 =====================
@@ -237,3 +240,5 @@ Given initial state :math:`S_0 = \ket{00}`, we consider the optimal trajectory :
    :label: eq:10
    
 which corresponds to the target circuit in :ref:`(2) <U>`.
+
+.. [Paper] Wang, Z.; Feng, C.; Poon, C.; Huang, L.; Zhao, X.; Ma, Y.; Fu, T.; and Liu, X.-Y. 2025. Reinforcement learning for quantum circuit design: Using matrix representations. In arXiv, 2501.16509. https://arxiv.org/abs/2501.16509.
