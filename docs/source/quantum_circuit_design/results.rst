@@ -4,7 +4,7 @@ Results
 
 We verify the above three MDP modelings for 10 well-known quantum circuits, namely, circuits to generate 4 Bell states, SWAP gate, iSWAP gate, CZ gate, GHZ gate, Z gate, and Toffoli gate. For Matrix and Reverse Matrix Representations, we apply both Q-learning and DQN algorithms, while for TN Representation, we applied only Q-learning. Our codes can be found at this link:
 
-`https://github.com/YangletLiu/CSCI4961_labs_projects/tree/main <https://github.com/YangletLiu/CSCI4961_labs_projects/tree/main>`_
+`https://github.com/YangletLiu/quantum-education-modules/tree/main/Quantum_Circuit_Design <https://github.com/YangletLiu/quantum-education-modules/tree/main/Quantum_Circuit_Design>`_
 
 **Toffoli Gate**: We used an action set with gates shown in Figure 1:
 
@@ -185,3 +185,5 @@ From Table 2, we observe that both Q-learning and DQN perform well on simpler ta
      - 1%
      - 3%
      - -
+
+.. [Paper] Wang, Z.; Feng, C.; Poon, C.; Huang, L.; Zhao, X.; Ma, Y.; Fu, T.; and Liu, X.-Y. 2025. Reinforcement learning for quantum circuit design: Using matrix representations. In arXiv, 2501.16509. https://arxiv.org/abs/2501.16509.
