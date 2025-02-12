@@ -38,7 +38,9 @@ Welcome to Quantum Education Modules!
    :maxdepth: 2
    :caption: Intermediate Modules
 
-   intermediate/placeholder
+   intermediate/deutschs
+   intermediate/bernsteins
+   intermediate/shors
 
 .. toctree::
    :maxdepth: 2
