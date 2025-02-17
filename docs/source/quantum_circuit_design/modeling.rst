@@ -203,6 +203,10 @@ Given :math:`S_0^{-1} = U`, we look at the optimal path :math:`S_0^{-1} \rightar
 
 Reversing the sequence of actions (and taking inverses) essentially shows you how to “unbuild” the target matrix :math:`U` back to the identity.
 
+**Advantages**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Different circuits share the same target, the identity matrix, which means they are likely to share common sub-matrices as they get close to the target. Therefore, RL agents can use prior experience from other circuits to avoid redundant training.
+
 Tensor Network Representation
 =============================
 
