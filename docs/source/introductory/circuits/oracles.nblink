@@ -1,3 +1,6 @@
 {
-  "path": "../../../../Modules/Concepts/Circuits/Oracles/oracles.ipynb"
+  "path": "../../../../Modules/Concepts/Circuits/Oracles/oracles.ipynb",
+  "extra-media": [
+    "../../../../Modules/Concepts/Circuits/Oracles/oracles_images"
+  ]
 }

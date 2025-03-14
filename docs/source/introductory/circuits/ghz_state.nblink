@@ -1,3 +1,6 @@
 {
-  "path": "../../../../Modules/Concepts/Circuits/GHZ State/ghz_state.ipynb"
+  "path": "../../../../Modules/Concepts/Circuits/GHZ State/ghz_state.ipynb",
+  "extra-media": [
+    "../../../../Modules/Concepts/Circuits/GHZ State/ghz_state_images"
+  ]
 }
