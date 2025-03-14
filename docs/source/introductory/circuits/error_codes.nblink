@@ -1,3 +1,6 @@
 {
-  "path": "../../../../Modules/Concepts/Circuits/Error Codes/error_codes.ipynb"
+  "path": "../../../../Modules/Concepts/Circuits/Error Codes/error_codes.ipynb",
+  "extra-media": [
+    "../../../../Modules/Concepts/Circuits/Error Codes/error_codes_images"
+  ]
 }
