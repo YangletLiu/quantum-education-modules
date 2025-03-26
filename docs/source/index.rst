@@ -40,8 +40,8 @@ Welcome to Quantum Education Modules!
 
    intermediate/deutschs
    intermediate/bernsteins
-   intermediate/shors
    intermediate/simons
+   intermediate/shors
 
 .. toctree::
    :maxdepth: 2
