@@ -3,56 +3,28 @@
 [Website](https://yangletliu.github.io/Intro-to-Quantum-Computing-Website/) \
 [Documentation](https://quantum-education-modules.readthedocs.io/en/latest/)
 
-## Overview
+## Overview  
 
-CSCI 4961 Introduction to Quantum Computing hopes to connect theory with practice, equipping students with the skills necessary to excel in future industry and academic endeavors. As an introductory course, CSCI 4961 covers fundamental quantum computing concepts such as superposition, entanglement, and quantum algorithms. We adopt a hands-on modular approach focused on labs and projects, supplementing theory through engagement in guided practical experiments using Jupyter notebooks and RPI's **IBM Quantum System One**. In this sense, we aim for anyone working on these modules, whether in development or for course labs/projects, to become **quantum-proficient**. Our goal is to expand upon the modules for future iterations of this course and other quantum-related courses at RPI.
+Welcome to the **CSCI 4961: Introduction to Quantum Computing** project! This open-source initiative is designed to provide a hands-on learning experience in quantum computing, equipping you with the skills necessary to excel in future industry and academic endeavors. 
+
+This repository contains course materials, including:
+  - **Concepts**: Step-by-step guides on the theory and practical implementation of quantum concepts.
+  - **Algorithms**: Real-world examples of quantum algorithms like Shor's and Grover’s algorithms.
+  - **Applications**: Exploring quantum solutions in fields such as cryptography, optimization, and machine learning.
+  
+We take a modular approach that combines theory with practical experiments using Jupyter notebooks and **RPI's IBM Quantum System One**, aiming to make participants **quantum-proficient**. Our goal is to expand these modules for future courses and projects at RPI.
+
+By completing the modules in this repository, you will:
+  - Understand and apply the core principles of quantum computing.
+  - Gain hands-on experience using **IBM Quantum System One**.
+  - Write and execute quantum algorithms using **Qiskit**.
+  - Learn how to solve practical problems with quantum technology.
+
+You can view the modules in the [Documentation](https://quantum-education-modules.readthedocs.io/en/latest/) site.
 
 ## Motivation
 
 The emerging field of quantum computing offers the opportunity for new career paths, research, and collaboration. Contributing to these **open-source** modules facilitates the learning/review of quantum computing fundamentals while also enhancing technical skills suitable for industry. Participants will have the chance to utilize **Qiskit**, one of the highest performing quantum Software Development Kits (SDKs), and experiment with RPI's **IBM Quantum System One**, gaining a competitive edge in the field. Involvement in open-source also enables networking opportunities through collaboration and recognition/credibility as an open-source contributor.
-
-## Final Deliverables
-
-- **Qiskit codes for quantum concepts, algorithms, and applications**
-- **Well-documented Jupyter notebook files**
-- **Testing on IBM System One on RPI Campus**
-- **Reports highlighting performance of the codes**
-
-## Roadmap
-
-### Goals & Milestones
-#### <ins>11/01/2024 - 01/01/2025</ins>
-**Introductory modules (Concepts)**
-- Qubits
-  - Superposition
-  - Bloch Sphere
-  - Measurement
-  - Entanglement
-- Gates
-  - Common Gates
-  - Universal Gate Set
-- Circuits
-  - Bell States
-  - GHZ State
-  - Error Codes
-  - Oracles
-    
-**Intermediate modules (Algorithms run on IBM Quantum System One)**
-  - Deutsch's
-  - Bernstein's
-  - Variational Quantum Eigensolver (VQE)
-  - Quantum Approximation Optimization Algorithm (QAOA)
-  - Grover's
-  - Shor's
-  - Quantum Key Distribution (QKD)
-  - Error Correction
-    
-#### <ins>01/01/2025 - 04/01/2025</ins>
-**Advanced modules (Applications)**
-  - Simulation
-  - Chemistry/Drug discovery
-  - Machine Learning
-  - Cryptography
 
 ### Long Term Goals
 
@@ -74,15 +46,24 @@ The emerging field of quantum computing offers the opportunity for new career pa
 │   ├── Name1/lab1, lab2, ...
 │   └── Name2/lab1, lab2, ...
 ├── Modules
-│   ├── Concepts/Module1, Module2, ...
-│   ├── Algorithms/Module1, Module2, ...
-|   └── Applications/Module1, Module2, ...
+│   ├── Concepts
+│       ├── Qubits
+│       ├── Gates
+│       └── Circuits
+│   ├── Algorithms
+│       ├── Deutch's
+│       ├── ...
+│       └── Shor's
+|   └── Applications
+│       ├── Quantum Machine Learning
+│       ├── ...
+│       └── Quantum Cryptography
 ├── Qiskit Global Summer School
 │   ├── Name1/lab1, lab2, ...
 │   └── Name2/lab1, lab2, ...
 ├── Quantum_Circuit_Design
-│   ├── method1
-│   └── method2
+│   ├── Q-learning
+│   └── Deep Q-Networks
 ├── docs
 │   └── source
 └── README.md
