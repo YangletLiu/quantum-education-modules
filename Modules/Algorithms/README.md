@@ -4,24 +4,27 @@ Welcome to the **Algorithms** folder! This section contains intermediate modules
 
 ## Structure
 
-The structure of the folders follows the Intermediate modules (Algorithms) section of the [Roadmap](https://github.com/YangletLiu/quantum-education-modules/blob/main/README.md#roadmap) on the main repository page. <br> Each topic includes the corresponding Jupyter notebook and any required images for the notebook.
+The folder is organized as follows, with each topic containing the corresponding Jupyter notebooks and any necessary supporting files (e.g., images).
 
 ```
-├── Bernstein's**
+├── Bernstein
 │   ├── bernsteins_images
 │   └── bersteins.ipynb
-├── Deutsch's**
-├── Error Correction**
-├── Grover's*
-├── Quantum Approximate Optimization Algorithm (QAOA)*
-├── Quantum Key Distribution (QKD)**
-├── Shor's*
-├── Variational Quantum Eigensolver (VQE)**
+├── Deutschs
+├── Error Correction
+├── Grover
+├── Quantum Approximate Optimization Algorithm (QAOA)
+├── Quantum Key Distribution (QKD)
+├── Shor
+├── Variational Quantum Eigensolver (VQE)
 └── README.md
-
-* In Progress
-** Not Added Yet
 ```
+
+Although the folder is organized alphabetically, we recommend beginning with the following algorithms first if you are just beginning to learn quantum computing:
+
+1. Deutsch's
+2. Bernstein's
+3. Simon's
 
 ## Contributing
 
