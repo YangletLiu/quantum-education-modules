@@ -7,26 +7,23 @@ Welcome to the **Applications** folder! This section contains advanced modules t
 
 ## Structure
 
-The structure of the folders follows the Advanced modules (Applications) section of the [Roadmap](https://github.com/YangletLiu/quantum-education-modules/blob/main/README.md#roadmap) on the main repository page. <br> Each topic includes the corresponding Jupyter notebook, any required images, and any needed data for the notebook.
+The folder is organized as follows, with each topic containing the corresponding Jupyter notebooks and any necessary supporting files (e.g., images).
 
 ```
-├── MaxCut Algorithms*
-├── Quantum Circuit Design*
+├── MaxCut Algorithms
+├── Quantum Circuit Design
 │   ├── circuit_design_images
 │   ├── dqn.ipynb
 │   ├── dqnReverse.ipynb
 │   ├── qlearning.ipynb
 │   └── qlearningReverse.ipynb
-├── Quantum Cryptography**
-├── Quantum Chemistry/Drug Discovery**
-├── Quantum Machine Learning*
-├── Quantum Sensing*
-├── Quantum Simulation**
-├── Quantum-inspired Financial Predictions*
+├── Quantum Cryptography
+├── Quantum Chemistry/Drug Discovery
+├── Quantum Machine Learning
+├── Quantum Sensing
+├── Quantum Simulation
+├── Quantum-inspired Financial Predictions
 └── README.md
-
-* In Progress
-** Not Added Yet
 ```
 
 ## Contributing

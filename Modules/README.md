@@ -1,53 +1,52 @@
 # Quantum Education Modules
 
 Welcome to the **Modules** folder! This folder is organized into three key sections to provide a structured approach to learning quantum computing:
-
-1. **Concepts**: Quantum computing concepts.
-2. **Algorithms**: Quantum algorithms.
-3. **Applications**: Real-world use cases and domain-specific applications of quantum computing.
+  - **Concepts**: Step-by-step guides on the theory and practical implementation of quantum concepts.
+  - **Algorithms**: Real-world examples of quantum algorithms like Shor's and Grover’s algorithms.
+  - **Applications**: Exploring quantum solutions in fields such as cryptography, optimization, and machine learning.
 
 ## Structure
 
-The structure of the modules follows the [Roadmap](https://github.com/YangletLiu/quantum-education-modules/blob/main/README.md#roadmap) on the main repository page. 
-<br> Each topic includes their corresponding Jupyter notebooks and any required images for each notebook.
+The folder is organized as follows, with each topic containing the corresponding Jupyter notebooks and any necessary supporting files (e.g., images).
 
 ```
-├── Algorithms (Incomplete)
-│   ├── Bernstein's**
-│   ├── Deutsch's**
-│   ├── Error Correction**
-│   ├── Grover's*
-│   ├── Quantum Approximate Optimization Algorithm (QAOA)*
-│   ├── Quantum Key Distribution (QKD)**
-│   ├── Shor's*
-│   ├── Variational Quantum Eigensolver (VQE)**
+├── Algorithms
+│   ├── Bernstein's
+│   ├── Deutsch's
+│   ├── Error Correction
+│   ├── Grover's
+│   ├── Quantum Approximate Optimization Algorithm (QAOA)
+│   ├── Quantum Key Distribution (QKD)
+│   ├── Shor's
+│   ├── Variational Quantum Eigensolver (VQE)
 │   └── README.md
-├── Applications (Incomplete)
-│   ├── MaxCut Algorithms*
-│   ├── Quantum Circuit Design*
-│   ├── Quantum Cryptography**
-│   ├── Quantum Chemistry/Drug Discovery**
-│   ├── Quantum Machine Learning*
-│   ├── Quantum Sensing*
-│   ├── Quantum Simulation**
-│   ├── Quantum-inspired Financial Predictions*
+├── Applications
+│   ├── MaxCut Algorithms
+│   ├── Quantum Circuit Design
+│   ├── Quantum Cryptography
+│   ├── Quantum Chemistry/Drug Discovery
+│   ├── Quantum Machine Learning
+│   ├── Quantum Sensing
+│   ├── Quantum Simulation
+│   ├── Quantum-inspired Financial Predictions
 │   └── README.md
-├── Concepts (Needs Revision/Iteration)
+├── Concepts
 │   ├── Circuits
 │   ├── Gates
 │   ├── Qubits
 │   └── README.md
 └── README.md
-
-* In Progress
-** Not Added Yet
 ```
 
-## How to Use
+## Usage Instructions
 
-Each module is designed to supplement course lectures as practical labs/projects. You will need to download the Jupyter notebooks on your local machine by either cloning our GitHub repository or downloading the raw file. 
+Each module is designed to supplement course lectures as practical labs/projects. You can access the Jupyter notebooks in one of the following ways:
+ - Clone the repository: Download the entire repository by cloning it to your local machine using Git. <br>
+  ```git clone https://github.com/YangletLiu/quantum-education-modules.git```
 
-Alternatively, you can go to our documentation [website](https://quantum-education-modules.readthedocs.io/en/latest/) to view the cells already pre-run. However, you will not be able to re-run or modify them.
+ - Download the notebooks: Alternatively, you can download individual raw files from the repository.
+
+If you prefer not to run the notebooks locally, you can view the pre-run cells on our [documentation website](https://quantum-education-modules.readthedocs.io/en/latest/). However, please note that you will not be able to interact with or modify these cells on the website.
 
 ## Contributing
 
