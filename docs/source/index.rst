@@ -40,6 +40,7 @@ Welcome to Quantum Education Modules!
 
    intermediate/deutschs
    intermediate/bernsteins
+   intermediate/simons
    intermediate/shors
 
 .. toctree::
@@ -50,9 +51,6 @@ Welcome to Quantum Education Modules!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Quantum Circuit Design
+   :caption: Projects
 
-   quantum_circuit_design/introduction
-   quantum_circuit_design/modeling
-   quantum_circuit_design/algorithms
-   quantum_circuit_design/results
+   projects/quantum_circuit_design/index

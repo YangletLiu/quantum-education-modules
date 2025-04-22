@@ -4,7 +4,7 @@ Welcome to the **Concepts** folder! This folder contains introductory modules th
 
 ## Structure
 
-The structure of the folders follows the Introductory modules (Concepts) section of the [Roadmap](https://github.com/YangletLiu/quantum-education-modules/blob/main/README.md#roadmap) on the main repository page. <br> Each topic includes the corresponding Jupyter notebook and any required images for the notebook.
+The folder is organized as follows, with each topic containing the corresponding Jupyter notebooks and any necessary supporting files (e.g., images).
 
 ```
 ├── Qubits
