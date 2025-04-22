@@ -1,3 +1,6 @@
 {
-  "path": "../../../../Modules/Concepts/Gates/Universal Gate Set/universalgateset.ipynb"
+  "path": "../../../../Modules/Concepts/Gates/Universal Gate Set/universalgateset.ipynb",
+  "extra-media": [
+    "../../../../Modules/Concepts/Gates/Universal Gate Set/universal_gate_set_images"
+  ]
 }
