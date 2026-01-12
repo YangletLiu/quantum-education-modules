@@ -15,7 +15,7 @@ Welcome to Quantum Education Modules!
    :maxdepth: 2
    :caption: User Documentation
 
-   user/introduction
+   user/overview
    user/usage
    user/contribute
 

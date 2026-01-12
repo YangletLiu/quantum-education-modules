@@ -16,63 +16,59 @@ Roadmap
 
 Introductory modules (Concepts, Gates, Circuits)
 ------------------------------------------------
-- **Qubits***
+- **Qubits**
 
-  - **Superposition***
+  - **Superposition**
 
-  - **Bloch Sphere***
+  - **Bloch Sphere**
 
-  - **Measurement***
+  - **Measurement**
 
-  - **Entanglement***
+  - **Entanglement**
 
-- **Gates***
+- **Gates**
 
-  - **Common Gates***
+  - **Common Gates**
 
-  - **Universal Gate Set***
+  - **Universal Gate Set**
 
-- **Circuits***
+- **Circuits**
 
-  - **Bell States***
+  - **Bell States**
 
-  - **GHZ State***
+  - **GHZ State**
 
-  - **Error Codes***
+  - **Error Codes**
 
-  - **Oracles***
+  - **Oracles**
 
 Intermediate modules (Algorithms)
 ---------------------------------
-- **Deutsch's****
+- **Deutsch's**
 
-- **Bernstein's****
+- **Bernstein's**
 
-- **Grover's***
+- **Grover's**
 
-- **Shor's***
+- **Shor's**
 
-- **Variational Quantum Eigensolver (VQE)****
+- **Variational Quantum Eigensolver (VQE)**
 
-- **Quantum Approximate Optimization Algorithm (QAOA)***
+- **Quantum Approximate Optimization Algorithm (QAOA)**
 
-- **Quantum Key Distribution (QKD)****
+- **Quantum Key Distribution (QKD)**
 
-- **Error Correction****
+- **Error Correction**
 
 Advanced modules (Applications)
 -------------------------------
-- **Simulation****
+- **Simulation**
 
-- **Chemistry/Drug Discovery****
+- **Chemistry/Drug Discovery**
 
-- **Machine Learning***
+- **Machine Learning**
 
-- **Cryptography****
-
-| **\* In progress/Needs revision**
-| **\*\* Not added yet**
-| 
+- **Cryptography**
 
 Suggested Contributions
 =======================
