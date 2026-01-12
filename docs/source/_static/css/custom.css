@@ -1,8 +1,170 @@
 .custom-img {
-    margin-bottom: 20px !important;
+    margin-bottom: 40px !important;
 }
 
 .toctree-wrapper ul ul{
     margin-top: 0 !important;
     margin-bottom: 0 !important;
 }
+
+:root {
+    --color--white: #fff;
+    --color--lightwash: #f7fbfb;
+    --color--mediumwash: #eff7f8;
+    --color--darkwash: #e6f3f3;
+    --color--warmgraylight: #eeedee;
+    --color--warmgraydark: #a3acb0;
+    --color--coolgray1: #c5c5d2;
+    --color--coolgray2: #8e8ea0;
+    --color--coolgray3: #6e6e80;
+    --color--coolgray4: #404452;
+    --color--darkgray: #2e2e2e;
+    --color--black: #050505;
+    --color--pink: #e6a2e4;
+    --color--magenta: #dd5ce5;
+    --color--red: #bd1c5f;
+    --color--brightred: #ef4146;
+    --color--orange: #e86c09;
+    --color--golden: #f4ac36;
+    --color--yellow: #ebe93d;
+    --color--lightgreen: #68de7a;
+    --color--darkgreen: #10a37f;
+    --color--teal: #2ff3ce;
+    --color--lightblue: #27b5ea;
+    --color--mediumblue: #2e95d3;
+    --color--darkblue: #5436da;
+    --color--navyblue: #1d0d4c;
+    --color--lightpurple: #8c6eff;
+    --color--darkpurple: #412991;
+    --color--midnightpurple: #342048; 
+    --color--amethyst: #9b5ce5;
+    --color--lavender: #b892ff;
+    --color--palelavender: #f0e7ff;
+}
+
+.wy-nav-top {
+    background-color: var(--color--midnightpurple) !important;
+}
+
+.wy-nav-top a, .wy-nav-top a:visited {
+ color: var(--color--palelavender) !important;
+}
+
+h1, h2, .rst-content .toctree-wrapper p.caption, h3, h4, h5, h6, legend {
+  font-family: "IBM Plex Sans", "Lato", "Helvetica Neue", sans-serif !important;
+}
+
+.rst-content .toc-backref {
+  color: var(--color--darkgray) !important;
+}
+
+.wy-menu-vertical header, .wy-menu-vertical p.caption {
+  color: var(--color--palelavender) !important;
+  font-weight: 500 !important;
+  letter-spacing: 1px;
+  margin-top: 1.25rem;
+}
+
+.wy-side-nav-search {
+  background-color: var(--color--warmgraylight) !important;
+}
+
+.wy-body-for-nav {
+  background-color: var(--color--coolgray1) !important;
+}
+
+.wy-menu-vertical li span.toctree-expand {
+  color:  var(--color--lavender) !important;
+}
+
+.wy-nav-side {
+  color: var(--color--coolgray1) !important;
+  background-color: var(--color--midnightpurple) !important;
+}
+
+.wy-side-nav-search input[type=text] {
+  border-color: var(--color--warmgraydark) !important;
+}
+
+a {
+  color: var(--color--mediumblue) !important;
+}
+
+a:visited {
+  color: var(--color--amethyst) !important;
+}
+
+.wy-menu-vertical a {
+  color: var(--color--coolgray1) !important;
+}
+
+.wy-menu-vertical li.current a {
+  border-right: none !important;
+  color: var(--color--coolgray4) !important;
+}
+
+.wy-menu-vertical li.current {
+  background-color: var(--color--warmgraylight) !important;
+}
+
+.wy-menu-vertical li.toctree-l2.current>a {
+  background-color: var(--color--coolgray1) !important;
+}
+
+.wy-menu-vertical a:hover, .wy-menu-vertical li.current a:hover, .wy-menu-vertical li.toctree-l2.current>a:hover {
+  color: var(--color--warmgraylight) !important;
+  background-color: var(--color--lightpurple) !important;
+}
+
+.rst-content dl:not(.docutils) dt {
+  border-color: var(--color--mediumblue) !important;
+  background-color: var(--color--warmgraylight) !important;
+}
+
+
+.wy-table-odd td, .wy-table-striped tr:nth-child(2n-1) td, .rst-content table.docutils:not(.field-list) tr:nth-child(2n-1) td {
+  background-color: var(--color--warmgraylight) !important;
+}
+
+.wy-side-nav-search>a {
+  margin-bottom: 0 !important;
+}
+
+.version-switch select {
+ color: var(--color--coolgray2) !important;
+}
+
+.wy-nav-content {
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+@media screen and (min-width: 1100px) {
+  .wy-nav-content {
+    max-width: 80% !important;
+    margin: 0 !important;
+  } 
+
+  .wy-nav-content-wrap {
+      background-color: var(--color--warmgraylight) !important;
+  }
+}
+
+.wy-side-nav-search img {
+  height: auto !important;
+  width: 100% !important;
+  padding: 0 !important;
+  background-color: inherit !important;
+  border-radius: 0 !important;
+  margin: 0 !important
+}
+
+.output_area pre,
+.output pre,
+.nboutput .output_text,
+div.cell div.output {
+  overflow-x: auto !important;
+  white-space: pre-wrap !important; 
+  word-break: break-word !important; 
+}
+

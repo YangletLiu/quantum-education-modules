@@ -6,23 +6,16 @@
 Welcome to Quantum Education Modules!
 =====================================
 
-.. image:: ./images/quantumcomputer.jpg
-   :width: 50%
+.. image:: ./images/quantum_computer_vcc.jpg
+   :width: 100%
    :align: center
    :class: custom-img
-
-
-.. toctree::
-    :maxdepth: 1
-    :hidden:
-
-    Home <self>
 
 .. toctree::
    :maxdepth: 2
    :caption: User Documentation
 
-   user/introduction
+   user/overview
    user/usage
    user/contribute
 
