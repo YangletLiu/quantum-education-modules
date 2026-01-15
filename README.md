@@ -4,7 +4,7 @@
 [Documentation](https://quantum-education-modules.readthedocs.io/en/latest/)
 
 ## Overview  
-test
+
 Welcome to the **CSCI 4961: Introduction to Quantum Computing** project! This open-source initiative is designed to provide a hands-on learning experience in quantum computing, equipping you with the skills necessary to excel in future industry and academic endeavors. 
 
 This repository contains course materials, including:
