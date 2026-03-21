@@ -11,8 +11,8 @@ The folder is organized as follows, with each topic containing the corresponding
 │   ├── bloch_sphere_images
 │   └── bloch_sphere.ipynb
 ├── Entanglement
-|   ├── entanglement_images
-|   └── entanglement.ipynb
+│   ├── entanglement_images
+│   └── entanglement.ipynb
 ├── Measurement
 │   ├── measurement_images
 │   └── measurement.ipynb
