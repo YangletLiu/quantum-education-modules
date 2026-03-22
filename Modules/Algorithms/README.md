@@ -9,7 +9,7 @@ The folder is organized as follows, with each topic containing the corresponding
 ```
 ├── Bernstein
 │   ├── bernsteins_images
-│   └── bersteins.ipynb
+│   └── bernsteins.ipynb
 ├── Deutschs
 ├── Error Correction
 ├── Grover
