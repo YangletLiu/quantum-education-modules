@@ -23,6 +23,7 @@ Welcome to Quantum Education Modules!
    :maxdepth: 2
    :caption: Introductory Modules
 
+   introductory/notation/index
    introductory/qubits/index
    introductory/gates/index
    introductory/circuits/index
