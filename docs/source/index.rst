@@ -22,7 +22,8 @@ Welcome to Quantum Education Modules!
 .. toctree::
    :maxdepth: 2
    :caption: Introductory Modules
-
+  
+   introductory/notation/index
    introductory/qubits/index
    introductory/gates/index
    introductory/circuits/index
