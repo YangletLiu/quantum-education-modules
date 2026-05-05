@@ -8,3 +8,4 @@ Qubits
    bloch_sphere
    measurement
    entanglement
+   interference
